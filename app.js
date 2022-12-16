@@ -56,7 +56,7 @@ console.log("server listen on port ", process.env.PORT || 3050)
 
 
 server.listen(process.env.PORT || 3050);
-module.exports = app;
+//module.exports = server;
 // socket.on("send from server", {
 //   "name":"Server"
 // });
