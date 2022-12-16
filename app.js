@@ -37,7 +37,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 //   res.status(err.status || 500);
 //   res.render('error');
 // });
-const server = require('http').createServer();
+const server = require('http').createServer(app);
 
 const io = require('socket.io')(server);
 
